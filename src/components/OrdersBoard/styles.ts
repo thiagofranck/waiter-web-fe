@@ -7,6 +7,7 @@ export const Board = styled.div`
   border-radius: 16px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   flex: 1;
 
@@ -22,6 +23,7 @@ export const Board = styled.div`
 export const OrdersContainer = styled.div`
   display: flex;
   width: 100%;
+
   flex-direction: column;
   margin-top: 1.5rem;
 
