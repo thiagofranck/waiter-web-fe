@@ -36,5 +36,31 @@ export const ModalBody = styled.div`
   }
   }
 
+  .status-container {
+    margin-top: 2rem;
 
+    small {
+      font-size: 0.875rem;
+      opacity: 0.8;
+    }
+
+    div {
+      margin-top: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.1rem;
+    }
+  }
+
+
+`;
+
+export const OrderDetails = styled.div`
+  margin-top: 2rem;
+
+  > strong {
+    font-weight: 500;
+    font-size: 0.875rem;
+    opacity: 0.8;
+  }
 `;
